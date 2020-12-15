@@ -1,0 +1,60 @@
+#header{                                 
+    text-align:center;                   
+    font-family:courier,arial,helvetica;  
+    font-size:100px;                    
+    color:white;                         
+    text-shadow:2px 5px 10px blue;
+    top:0px;
+    left:500px;
+    position:fixed;       
+} 
+html{                                                                     
+    background-image:url("weather_background_image.jpg");                 
+    background-repeat:no-repeat;                                          
+    background-size:cover;                                                
+}                                                                   
+#AQIbtn{                                                                  
+    background: #1E90FF;                                                  
+    display:inline-block;                                                                                                     
+    padding:14px 25px;                                               
+    width:100px;                                                          
+    height:30px;                                                         
+    border-radius:35px;                                                    
+    border:2px solid black;                                                
+    text-align:center;                                                    
+    margin:auto;                                                          
+    color:white;                                                          
+    font-size:20px;                                                                                                 
+    box-shadow:2px 2px 2px rgba(0,0,0,0.19);
+    top:300px;
+    left:650px;
+    position:fixed;                                
+}                                                                         
+                                                                          
+#AQIValue{                                                                 
+    text-align:center;                                                    
+    font-family:courier,arial,helvetica;                                  
+    font-size:25px;                                                       
+    font-weight: 900;                                                     
+    color:white;                                                          
+    text-shadow:2px 2px 4px black;
+    top:400px;
+    left:640px;
+    position:fixed;                                            
+}     
+#AQILevel{
+	 text-align:center;                                                    
+    font-family:courier,arial,helvetica;                                  
+    font-size:25px;                                                       
+    font-weight: 900;                                                     
+    color:white;                                                          
+    text-shadow:2px 2px 4px black;
+    top:455px;
+    left:670px;
+    position:fixed;
+}                                                                    
+#AQIbtn:hover{                                                            
+    cursor:pointer;                                                       
+    box-shadow:5px 5px 5px rgba(0,0,0,0.5);                               
+}  
+                                                                                                                                       
